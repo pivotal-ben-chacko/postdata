@@ -1,9 +1,9 @@
+import xml.etree.ElementTree as ET
+
 import os
 import json
 import datetime
 import requests
-
-import xml.etree.ElementTree as ET
 
 def format_time():
     t = datetime.datetime.now()
