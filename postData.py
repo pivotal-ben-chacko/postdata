@@ -3,7 +3,7 @@ import xml.etree.ElementTree as ET
 import os
 import json
 import datetime
-import requests
+# import requests
 
 def format_time():
     t = datetime.datetime.now()
@@ -67,6 +67,8 @@ def main():
     json_data = json.dumps(data)
     session = requests.Session()
     print(json_data)
+    print(headers)
+    print(url)
 
     # res = requests.post(url, data=json_data, headers=headers)
     # print("Status code: " + str(res.status_code))
