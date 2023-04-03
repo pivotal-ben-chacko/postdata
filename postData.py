@@ -6,9 +6,9 @@ import datetime
 # import requests
 
 def format_time():
-    t = datetime.datetime.now()
-    s = t.strftime('%Y-%m-%dT%H:%M:%S.%fZ')
-    return s[:-5] + 'Z'
+    time = datetime.datetime.now()
+    formatted_time = t.strftime('%Y-%m-%dT%H:%M:%S.%fZ')
+    return formatted_time[:-5] + 'Z'
 
 def main():
 
@@ -65,7 +65,7 @@ def main():
     data['sourceUrl'] = 'TODO: get full path of supply chain'
 
     json_data = json.dumps(data)
-    session = requests.Session()
+    # session = requests.Session()
     print(json_data)
     print(headers)
     print(url)
