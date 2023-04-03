@@ -68,9 +68,9 @@ def main():
     session = requests.Session()
     print(json_data)
 
-    res = requests.post(url, data=json_data, headers=headers)
-    print("Status code: " + str(res.status_code))
-    print(res.text)
+    # res = requests.post(url, data=json_data, headers=headers)
+    # print("Status code: " + str(res.status_code))
+    # print(res.text)
 
 if __name__ == '__main__':
     main()

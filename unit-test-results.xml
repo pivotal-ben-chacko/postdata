@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="22" failures="0" errors="0" time="12.332">
+  <testsuite name="PatientRepository" errors="0" failures="0" skipped="0" timestamp="2023-03-22T21:29:56" time="9.888" tests="3">
+    <testcase classname="PatientRepository creates a new patient" name="PatientRepository creates a new patient" time="0.086">
+    </testcase>
+    <testcase classname="PatientRepository finds a patient by id" name="PatientRepository finds a patient by id" time="0.036">
+    </testcase>
+    <testcase classname="PatientRepository deletes a patient" name="PatientRepository deletes a patient" time="0.048">
+    </testcase>
+  </testsuite>
+  <testsuite name="Swagger/OpenApi Docs" errors="0" failures="0" skipped="0" timestamp="2023-03-22T21:30:06" time="1.447" tests="2">
+    <testcase classname="Swagger/OpenApi Docs Setup of Swagger UI" name="Swagger/OpenApi Docs Setup of Swagger UI" time="0.047">
+    </testcase>
+    <testcase classname="Swagger/OpenApi Docs Setup of Swagger api-docs" name="Swagger/OpenApi Docs Setup of Swagger api-docs" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="PatientController" errors="0" failures="0" skipped="0" timestamp="2023-03-22T21:30:07" time="0.725" tests="13">
+    <testcase classname="PatientController Get by id returns a patient" name="PatientController Get by id returns a patient" time="0.029">
+    </testcase>
+    <testcase classname="PatientController Get by id returns 404 if not found" name="PatientController Get by id returns 404 if not found" time="0.013">
+    </testcase>
+    <testcase classname="PatientController Get by id returns 500 on error" name="PatientController Get by id returns 500 on error" time="0.063">
+    </testcase>
+    <testcase classname="PatientController Get all returns list of patients" name="PatientController Get all returns list of patients" time="0.014">
+    </testcase>
+    <testcase classname="PatientController Get all returns 500 on error" name="PatientController Get all returns 500 on error" time="0.035">
+    </testcase>
+    <testcase classname="PatientController Create returns 400 bad request on missing firstname" name="PatientController Create returns 400 bad request on missing firstname" time="0.031">
+    </testcase>
+    <testcase classname="PatientController Create returns 400 bad request on missing lastName" name="PatientController Create returns 400 bad request on missing lastName" time="0.013">
+    </testcase>
+    <testcase classname="PatientController Create returns 400 bad request on invalid email" name="PatientController Create returns 400 bad request on invalid email" time="0.012">
+    </testcase>
+    <testcase classname="PatientController Create creates a patient" name="PatientController Create creates a patient" time="0.021">
+    </testcase>
+    <testcase classname="PatientController Create returns 500 on error" name="PatientController Create returns 500 on error" time="0.037">
+    </testcase>
+    <testcase classname="PatientController Delete deletes a patient" name="PatientController Delete deletes a patient" time="0.013">
+    </testcase>
+    <testcase classname="PatientController Delete returns 404 if not found" name="PatientController Delete returns 404 if not found" time="0.011">
+    </testcase>
+    <testcase classname="PatientController Delete returns 500 on error" name="PatientController Delete returns 500 on error" time="0.02">
+    </testcase>
+  </testsuite>
+  <testsuite name="PatientService" errors="0" failures="0" skipped="0" timestamp="2023-03-22T21:30:08" time="0.123" tests="4">
+    <testcase classname="PatientService findById delegates to repository" name="PatientService findById delegates to repository" time="0.005">
+    </testcase>
+    <testcase classname="PatientService findAll delegates to repository" name="PatientService findAll delegates to repository" time="0.001">
+    </testcase>
+    <testcase classname="PatientService create delegates to repository" name="PatientService create delegates to repository" time="0.001">
+    </testcase>
+    <testcase classname="PatientService delete delegates to repository" name="PatientService delete delegates to repository" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

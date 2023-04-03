@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="0" errors="0" time="15.867">
+  <testsuite name="Patient" errors="0" failures="0" skipped="0" timestamp="2023-03-24T13:46:36" time="15.751" tests="5">
+    <testcase classname="Patient Creating a new Patient" name="Patient Creating a new Patient" time="0.095">
+    </testcase>
+    <testcase classname="Patient View a specific patients by id" name="Patient View a specific patients by id" time="0.073">
+    </testcase>
+    <testcase classname="Patient View all patients" name="Patient View all patients" time="0.044">
+    </testcase>
+    <testcase classname="Patient Delete a specific patients by id" name="Patient Delete a specific patients by id" time="0.027">
+    </testcase>
+    <testcase classname="Patient Patient Creation fails due to bad request" name="Patient Patient Creation fails due to bad request" time="0.019">
+    </testcase>
+  </testsuite>
+</testsuites>
