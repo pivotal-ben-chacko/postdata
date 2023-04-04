@@ -7,7 +7,7 @@ import datetime
 
 def format_time():
     time = datetime.datetime.now()
-    formatted_time = t.strftime('%Y-%m-%dT%H:%M:%S.%fZ')
+    formatted_time = time.strftime('%Y-%m-%dT%H:%M:%S.%fZ')
     return formatted_time[:-5] + 'Z'
 
 def main():
